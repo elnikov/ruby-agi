@@ -21,7 +21,7 @@
 #
 
 require 'ruby-agi/rs/return_status'
-require 'error.rb'
+require 'ruby-agi/error.rb'
 
 #
 # class to handle return status of Command#receive_char
