@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "ChangeLog",
      "LICENSE",
-     "README"
+     "README.md"
   ]
   s.files = [
     "ChangeLog",
