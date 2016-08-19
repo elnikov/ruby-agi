@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ruby-agi}
-  s.version = "1.1.1"
+  s.version = "1.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mohammad Khan", "Carlos Lenz", "Eric Richmond"]
   s.date = %q{2009-08-11}
-  s.description = %q{This is a fork of ruby-agi version 1.1.2 by Mohammad Khan.  We've made some fixes for rails compatibility, and preferred the v1.1.2 codebase over the 2.0.0 codebase, so we've created a gem for our own local use that other people are welcome to use, if it suits them.}
-  s.email = %q{eric@newvo.com}
+  s.description = %q{Work fork version}
+  s.email = %q{elnikov.s@gmail.com}
   s.extra_rdoc_files = [
     "ChangeLog",
      "LICENSE",
@@ -27,6 +27,35 @@ Gem::Specification.new do |s|
      "lib/ruby-agi/command.rb",
      "lib/ruby-agi/error.rb",
      "lib/ruby-agi/return_status.rb",
+     "lib/ruby-agi/rs/answer.rb",
+     "lib/ruby-agi/rs/channel_status.rb",
+     "lib/ruby-agi/rs/exec.rb",
+     "lib/ruby-agi/rs/get_variable.rb",
+     "lib/ruby-agi/rs/hangup.rb",
+     "lib/ruby-agi/rs/noop.rb",
+     "lib/ruby-agi/rs/receive_char.rb",
+     "lib/ruby-agi/rs/receive_text.rb",
+     "lib/ruby-agi/rs/record_file.rb",
+     "lib/ruby-agi/rs/result.rb",
+     "lib/ruby-agi/rs/return_status.rb",
+     "lib/ruby-agi/rs/say_digits.rb",
+     "lib/ruby-agi/rs/say_number.rb",
+     "lib/ruby-agi/rs/say_phonetic.rb",
+     "lib/ruby-agi/rs/say_time.rb",
+     "lib/ruby-agi/rs/send_image.rb",
+     "lib/ruby-agi/rs/send_text.rb",
+     "lib/ruby-agi/rs/set_auto_hangup.rb",
+     "lib/ruby-agi/rs/set_caller_id.rb",
+     "lib/ruby-agi/rs/set_context.rb",
+     "lib/ruby-agi/rs/set_extension.rb",
+     "lib/ruby-agi/rs/set_music.rb",
+     "lib/ruby-agi/rs/set_priority.rb",
+     "lib/ruby-agi/rs/set_variable.rb",
+     "lib/ruby-agi/rs/stream_file.rb",
+     "lib/ruby-agi/rs/tdd_mode.rb",
+     "lib/ruby-agi/rs/verbose.rb",
+     "lib/ruby-agi/rs/wait_for_digit.rb",
+     "lib/ruby-agi/rs/wait_for_digits.rb",
      "ruby-agi.gemspec"
   ]
   s.homepage = %q{https://github.com/elnikov/ruby-agi}
