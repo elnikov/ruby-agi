@@ -22,15 +22,15 @@ Gem::Specification.new do |s|
      "VERSION",
      "examples/call_log.rb",
      "extconf.rb",
-     "lib/erichmond-ruby-agi.rb",
-     "lib/erichmond-ruby-agi/agi.rb",
-     "lib/erichmond-ruby-agi/asterisk_variable.rb",
-     "lib/erichmond-ruby-agi/command.rb",
-     "lib/erichmond-ruby-agi/error.rb",
-     "lib/erichmond-ruby-agi/return_status.rb",
+     "lib/ruby-agi.rb",
+     "lib/ruby-agi/agi.rb",
+     "lib/ruby-agi/asterisk_variable.rb",
+     "lib/ruby-agi/command.rb",
+     "lib/ruby-agi/error.rb",
+     "lib/ruby-agi/return_status.rb",
      "ruby-agi.gemspec"
   ]
-  s.homepage = %q{http://github.com/erichmond/ruby-agi}
+  s.homepage = %q{https://github.com/elnikov/ruby-agi}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.4}
