@@ -35,9 +35,9 @@
 
 require 'sync'
 
-require 'ruby-agi/agi.rb'
-require 'ruby-agi/error.rb'
-require 'ruby-agi/return_status.rb'
+require_relative 'agi.rb'
+require_relative 'error.rb'
+require_relative 'return_status.rb'
 
 class AGI
 end

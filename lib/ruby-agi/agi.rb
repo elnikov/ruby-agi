@@ -23,10 +23,10 @@
 
 require 'sync'
 
-require 'ruby-agi/error.rb'
-require 'ruby-agi/command.rb'
-require 'ruby-agi/asterisk_variable.rb'
-require 'ruby-agi/return_status.rb'
+require_relative 'error.rb'
+require_relative 'command.rb'
+require_relative 'asterisk_variable.rb'
+require_relative 'return_status.rb'
 
 
 class AGI

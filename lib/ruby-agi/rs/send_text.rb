@@ -20,7 +20,7 @@
 #  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
-require 'ruby-agi/rs/return_status'
+require_relative 'return_status.rb'
 
 #
 # Sends the given text on a channel.

@@ -20,7 +20,7 @@
 #  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
-require 'ruby-agi/rs/return_status'
+require_relative 'return_status.rb'
 
 # Say a given digit string, returning early if any of the given DTMF digits are received on the channel.
 #

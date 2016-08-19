@@ -39,8 +39,8 @@
 #    -- ruby-agi >> agi_accountcode
 
 
-require 'ruby-agi/agi.rb'
-require 'ruby-agi/error.rb'
+require_relative 'agi.rb'
+require_relative 'error.rb'
 
 class AGI
 end
