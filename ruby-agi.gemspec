@@ -17,11 +17,10 @@ Gem::Specification.new do |s|
   s.files = [
     "ChangeLog",
      "LICENSE",
-     "README",
+     "README.md",
      "Rakefile",
      "VERSION",
      "examples/call_log.rb",
-     "extconf.rb",
      "lib/ruby-agi.rb",
      "lib/ruby-agi/agi.rb",
      "lib/ruby-agi/asterisk_variable.rb",
