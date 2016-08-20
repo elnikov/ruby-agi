@@ -810,6 +810,10 @@ class Command < AGI
 			telephone_number.strip!
 			dial_string = "IAX2/#{username}@#{context}/#{telephone_number}" 
 		elsif protocol == 'SIP'
+			return nil if (telephone_number.nil?)
+			telephone_number.strip!
+			dial_string = "SIP/#{telephone_number}" 
+			dial_string += "@#{context}" if context != 'default'
 		else
 			return nil
 		end
